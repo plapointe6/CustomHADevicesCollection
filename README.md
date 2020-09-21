@@ -51,7 +51,7 @@ There is three messages types when communicating with Home Assitant via MQTT.
 
 ## Devices events chronology
 
-1. setup(): initilisations, loading the previous state from EEPROM, configure the MQTT device.
+1. setup(): initilisations, load the previous state from EEPROM, configure the MQTT device.
 2. onConnectionEstablished(): this callback is called each time everything get up and running (MQTT connection and WiFi connection). Here we subscribe to commands topics and Home assistant status.
 3. We receive a Home Assistant status message indicating that HA is online. Then, we register the device to HA by sending the configuration message. After that, we needs to wait a little to let HA register and activate the device (wait five seconds)
 4. When the waiting time as ended, we send the current device state to HA. This will update the device state in HA to match what was saved into EEPROM. Also, the attributes of the device are initialised with the IP address of the device and are sent to Home assistant.
