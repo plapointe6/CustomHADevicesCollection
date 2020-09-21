@@ -16,14 +16,14 @@ Coming soon
 
 ## Software
 
-The software uses the EspMQTTClient, HAMQTTDevice ans ESP_EEPROM libraries. You can finbd the arduino sketch in the "dimmable_light_rotary_encoder" folder.
+The software uses the EspMQTTClient, HAMQTTDevice ans ESP_EEPROM libraries. You can find the arduino sketch in the "dimmable_light_rotary_encoder" folder.
 
 ## PCB and 3D printed case
 
 For a more finished product, milling your own PCB and enclosing the electronics into a case would be great.
 
-You will find the .stl files in the "3D printed case" folder anf the PCB for milling in the "PCB" folder.
+You will find the .stl files in the "3D printed case" folder and the PCB for milling in the "PCB" folder.
 
 PCB Coming soon.
 
-![Case](https://github.com/plapointe6/CustomHADevicesCollection/blob/master/dimmable_light_rotary_encoder/media/printed_case.png)
+![Case](https://github.com/plapointe6/CustomHADevicesCollection/blob/master/dimmable_light_with_rotary_encoder/media/printed_case.png)
