@@ -63,7 +63,7 @@ I recommend taking a look to the onoff_light code to see these concepts in actio
 Each device host a web updater that can be accessed with your browser by typing the ip address or the name of the device. The default username/password will be the same as your MQTT username/password.
 
 
-# Add yours !
+# Add yours
 
 If you successfully develop a new MQTT device based on these exemples (ESPMQTTClient/HAMqttDevice), create a pull request, everyones will benefit :)
 
