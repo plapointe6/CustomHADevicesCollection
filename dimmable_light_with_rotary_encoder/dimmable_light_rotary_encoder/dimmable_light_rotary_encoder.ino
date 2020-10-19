@@ -9,7 +9,7 @@ EspMQTTClient client(
   "192.168.1.101",  // MQTT broker ip
   "myUsername",     // MQTT username
   "myMQTTPassword", // MQTT password
-  "my_light"        // MQTT Client name
+  "my_dimmable_light" // MQTT Client name
 );
 
 HAMqttDevice dimmableLight("My led strip", HAMqttDevice::LIGHT);
@@ -32,7 +32,6 @@ struct LightValues {
   bool lightOn;
   int brightness;
 };
-
 LightValues lightValues = { .lightOn = false, .brightness = 100 };
 
 unsigned int pushButtonCoolDownDue = 0;
@@ -56,6 +55,7 @@ void setup()
 
   // Configure extra config vars for Home assistant
   dimmableLight
+    .enableAttributesTopic()
     .addConfigVar("bri_stat_t", "~/br/state")
     .addConfigVar("bri_cmd_t", "~/br/cmd")
     .addConfigVar("bri_scl", "100");

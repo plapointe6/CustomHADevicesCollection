@@ -4,11 +4,12 @@ This device use a ESP8266 (Wemos D1 Mini) in pair with a rotary encoder and a MO
 
 ## BOM
 
-- Wemos D1 Mini
-- Mosfet - IRLB8721
-- Voltage regulator - [Mini DC-DC Converter Adjustable Power Supply Step Down Module](https://www.banggood.com/5Pcs-Mini-DC-DC-Converter-Adjustable-Power-Supply-Step-Down-Module-p-951165.html?rmmds=myorder&cur_warehouse=CN)
-- Rotary encoder - 5pins, 11mm x 15mm - [like this one](https://www.banggood.com/10Pcs-15mm-Rotary-Encoder-Switch-with-Key-Switch-with-2-Bit-Gray-Scale-Micro-Switch-p-1593839.html?rmmds=search&cur_warehouse=CN)
-- Resistor - 100ohm
+- 1x Wemos D1 Mini
+- 1x Mosfet - IRLB8721
+- 1x Voltage regulator - [Mini DC-DC Converter Adjustable Power Supply Step Down Module](https://www.banggood.com/5Pcs-Mini-DC-DC-Converter-Adjustable-Power-Supply-Step-Down-Module-p-951165.html?rmmds=myorder&cur_warehouse=CN)
+- 1x Rotary encoder - 5pins, 11mm x 15mm - [like this one](https://www.banggood.com/10Pcs-15mm-Rotary-Encoder-Switch-with-Key-Switch-with-2-Bit-Gray-Scale-Micro-Switch-p-1593839.html?rmmds=search&cur_warehouse=CN)
+- 1x Resistor - 100ohm
+- 2x Dc power jack
 
 ## Schematics
 
