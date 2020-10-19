@@ -12,7 +12,7 @@ This device use a ESP8266 (Wemos D1 Mini) in pair with 4 MOSFET to control an RG
 
 ## Schematics
 
-Coming soon
+![Schematics](https://github.com/plapointe6/CustomHADevicesCollection/blob/master/RGBW_led_strip/media/schematics.png)
 
 ## Software
 
